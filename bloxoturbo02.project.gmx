@@ -14,6 +14,7 @@
     <sprite>sprites\spr_blankedLauncher</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\launcherret</sprite>
+    <sprite>sprites\destroyanim</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -23,6 +24,9 @@
   <scripts name="scripts">
     <script>scripts\launcherscript.gml</script>
     <script>scripts\blockcolourer.gml</script>
+    <script>scripts\TransformScript.gml</script>
+    <script>scripts\blockBreaker.gml</script>
+    <script>scripts\colourchecker.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_basicblock</object>
@@ -31,6 +35,7 @@
     <object>objects\debugobj</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
+    <object>objects\obj_selfdestruct</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
