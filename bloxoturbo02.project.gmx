@@ -43,9 +43,14 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
+    <object>objects\obj_blockparent</object>
     <object>objects\obj_NewGame</object>
     <object>objects\obj_options</object>
     <object>objects\musictest</object>
+    <object>objects\obj_preplacedBlockBlue</object>
+    <object>objects\obj_preplacedBlockGreen</object>
+    <object>objects\obj_preplacedBlockPurple</object>
+    <object>objects\obj_preplacedBlockRed</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
