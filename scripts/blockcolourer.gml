@@ -2,6 +2,7 @@ colour0 = spr_redbox
 colour1 = spr_bluebox
 colour2 = spr_greenbox
 colour3 = spr_purplebox
+colour4 = spr_orangebox
 rootobject = argument0 
 
 if rootobject.blockcolour = 0{
@@ -15,4 +16,7 @@ self.sprite_index = colour2
 }
 if rootobject.blockcolour = 3{
 self.sprite_index = colour3
+}
+if rootobject.blockcolour = 4{
+self.sprite_index = colour4
 }

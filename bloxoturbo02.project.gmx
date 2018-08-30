@@ -14,6 +14,7 @@
     <sprite>sprites\spr_bluebox</sprite>
     <sprite>sprites\spr_greenbox</sprite>
     <sprite>sprites\spr_purplebox</sprite>
+    <sprite>sprites\spr_orangebox</sprite>
     <sprite>sprites\spr_blankedLauncher</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\launcherret</sprite>
@@ -52,6 +53,7 @@
     <object>objects\obj_preplacedBlockGreen</object>
     <object>objects\obj_preplacedBlockPurple</object>
     <object>objects\obj_preplacedBlockRed</object>
+    <object>objects\obj_preplacedOrange</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
