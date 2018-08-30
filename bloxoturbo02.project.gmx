@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_BasicBlock</sprite>
     <sprite>sprites\spr_redbox</sprite>
@@ -15,10 +17,15 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\launcherret</sprite>
     <sprite>sprites\destroyanim</sprite>
+    <sprite>sprites\Play</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -36,10 +43,14 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
+    <object>objects\obj_NewGame</object>
+    <object>objects\obj_options</object>
+    <object>objects\musictest</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenu</room>
     <room>rooms\room0</room>
-    <room>rooms\room1</room>
+    <room>rooms\Title</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
