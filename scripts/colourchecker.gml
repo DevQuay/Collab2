@@ -1,8 +1,8 @@
 #define colourchecker
 ///Block Colour Check
-leftcheck = instance_place(self.x-2,self.y,obj_blockparent)
-rightcheck = instance_place(self.x+2,self.y,obj_blockparent)
-upcheck = instance_place(self.x,self.y-2,obj_blockparent)
+leftcheck = instance_place(self.x-2,self.y,obj_launchedblock)
+rightcheck = instance_place(self.x+2,self.y,obj_launchedblock)
+upcheck = instance_place(self.x,self.y-2,obj_launchedblock)
 
 if leftcheck != noone{
 checkrepeat()
