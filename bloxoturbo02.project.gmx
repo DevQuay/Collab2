@@ -36,6 +36,11 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
+    <object>objects\obj_blockparent</object>
+    <object>objects\obj_preplacedBlockRed</object>
+    <object>objects\obj_preplacedBlockBlue</object>
+    <object>objects\obj_preplacedBlockGreen</object>
+    <object>objects\obj_preplacedBlockPurple</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
