@@ -10,23 +10,24 @@ check()
 #define check
 if leftcheck != noone{
 if leftcheck.blockcolour = self.blockcolour{
-act()
+self.matched = 1
+leftcheck.matched = 1
+score += 10;
 }
 }
 
 if rightcheck != noone{
 if rightcheck.blockcolour = self.blockcolour{
-act()
+self.matched = 1
+rightcheck.matched = 1
+score += 10;
 }
 }
 
 if upcheck != noone{
 if upcheck.blockcolour = self.blockcolour{
-act()
-}
-}
-
-#define act
 self.matched = 1
-leftcheck.matched = 1
+upcheck.matched = 1
 score += 10;
+}
+}
