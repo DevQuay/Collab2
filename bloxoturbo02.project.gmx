@@ -37,6 +37,7 @@
     <script>scripts\TransformScript.gml</script>
     <script>scripts\blockBreaker.gml</script>
     <script>scripts\colourchecker.gml</script>
+    <script>scripts\nextblocker.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_basicblock</object>
@@ -56,6 +57,7 @@
     <object>objects\obj_preplacedBlockRed</object>
     <object>objects\obj_preplacedOrange</object>
     <object>objects\object16</object>
+    <object>objects\obj_nextblocker</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
