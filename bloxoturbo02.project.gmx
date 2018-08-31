@@ -23,6 +23,7 @@
     <sprite>sprites\Play</sprite>
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_circle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
