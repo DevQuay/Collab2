@@ -1,22 +1,19 @@
-colour0 = spr_redbox
-colour1 = spr_bluebox
-colour2 = spr_greenbox
-colour3 = spr_purplebox
-colour4 = spr_orangebox
-rootobject = argument0 
+#define blockcolourer
+if argument0{
+if !launched{
+ColourSub()
+}
+}
+else{
+ColourSub()
+}
 
-if rootobject.blockcolour = 0{
-self.sprite_index = colour0
+#define ColourSub
+{
+var i;
+for (i = 0; i <= (array_length_1d(colours)-1); i += 1){
+if self.blockcolour = i{
+self.sprite_index = colours[i]
 }
-if rootobject.blockcolour = 1{
-self.sprite_index = colour1
 }
-if rootobject.blockcolour = 2{
-self.sprite_index = colour2
-}
-if rootobject.blockcolour = 3{
-self.sprite_index = colour3
-}
-if rootobject.blockcolour = 4{
-self.sprite_index = colour4
 }
