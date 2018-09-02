@@ -91,6 +91,7 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_blockparent</object>
     <object>objects\obj_basicblock</object>
     <object>objects\obj_nextblock</object>
     <object>objects\obj_launchedblock</object>
@@ -99,7 +100,6 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
-    <object>objects\obj_blockparent</object>
     <object>objects\obj_NewGame</object>
     <object>objects\obj_options</object>
     <object>objects\musictest</object>
