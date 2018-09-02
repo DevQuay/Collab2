@@ -9,3 +9,4 @@ colours[4] = spr_orangebox
 //Settings
 
 PreviewSetting = 4
+KeyRepeat = 1

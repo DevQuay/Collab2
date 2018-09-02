@@ -90,8 +90,8 @@
     <script>scripts\blockBreaker.gml</script>
     <script>scripts\colourchecker.gml</script>
     <script>scripts\nextblocker.gml</script>
-    <script>scripts\settingsScript.gml</script>
     <script>scripts\Summon_Next_Line.gml</script>
+    <script>scripts\DefaultsettingsScript.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>

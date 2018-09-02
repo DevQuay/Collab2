@@ -11,8 +11,9 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>globalvar colours
-settingsScript()
-globalvar PreviewSetting</code>
+globalvar PreviewSetting
+globalvar KeyRepeat
+DefaultsettingsScript()</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
