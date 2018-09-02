@@ -4,30 +4,23 @@
 leftcheck = instance_place(self.x-2,self.y,obj_blockparent)
 rightcheck = instance_place(self.x+2,self.y,obj_blockparent)
 upcheck = instance_place(self.x,self.y-2,obj_blockparent)
+downcheck = instance_place(self.x,self.y+2,obj_blockparent)
 
-check()
+check(leftcheck)
+check(rightcheck)
+check(downcheck)
+check(upcheck)
 
 #define check
-if leftcheck != noone{
-if leftcheck.blockcolour = self.blockcolour{
-self.matched = 1
-leftcheck.matched = 1
-score += 10;
-}
-}
-
-if rightcheck != noone{
-if rightcheck.blockcolour = self.blockcolour{
-self.matched = 1
-rightcheck.matched = 1
-score += 10;
-}
+if argument0 != noone{
+    if argument0.blockcolour = self.blockcolour{
+        self.matched = 1 
+        argument0.matched = 1 //block collided WITH 
+            if !scoreadded{
+                score += 10;
+                scoreadded = true
+        }
+    }
 }
 
-if upcheck != noone{
-if upcheck.blockcolour = self.blockcolour{
-self.matched = 1
-upcheck.matched = 1
-score += 10;
-}
-}
+

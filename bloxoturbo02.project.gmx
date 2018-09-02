@@ -85,19 +85,21 @@
     <script>scripts\colourchecker.gml</script>
     <script>scripts\nextblocker.gml</script>
     <script>scripts\colourlist.gml</script>
+    <script>scripts\Summon_Next_Line.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_blockparent</object>
     <object>objects\obj_basicblock</object>
     <object>objects\obj_nextblock</object>
     <object>objects\obj_launchedblock</object>
+    <object>objects\obj_placedBlock</object>
     <object>objects\debugobj</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
-    <object>objects\obj_blockparent</object>
     <object>objects\obj_NewGame</object>
     <object>objects\obj_options</object>
     <object>objects\musictest</object>
@@ -113,6 +115,7 @@
     <object>objects\obj_transition1</object>
     <object>objects\obj_transition2</object>
     <object>objects\obj_transition1_1</object>
+    <object>objects\obj_nextliner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
