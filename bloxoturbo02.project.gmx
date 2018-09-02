@@ -94,6 +94,7 @@
     <object>objects\obj_scoreThing</object>
     <object>objects\Obj_enter</object>
     <object>objects\obj_transition1</object>
+    <object>objects\obj_transition2</object>
     <object>objects\obj_transition1_1</object>
   </objects>
   <rooms name="rooms">

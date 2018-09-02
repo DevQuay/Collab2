@@ -236,6 +236,7 @@
     <tile bgName="background4" x="352" y="32" w="32" h="32" xo="0" yo="0" id="10000077" name="inst_73C5FDFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background4" x="192" y="160" w="32" h="32" xo="0" yo="0" id="10000080" name="inst_49CFB44E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background4" x="128" y="32" w="32" h="32" xo="0" yo="0" id="10000082" name="inst_4F3939F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background0" x="0" y="0" w="960" h="640" xo="0" yo="0" id="10000083" name="inst_02806658" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
