@@ -167,7 +167,7 @@ self.blockcolour = obj_basicblock.blockcolour
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_basicblock.launched =0
+            <string>obj_basicblock.launchede =0
 if collided = 0{
 with (obj_nextblocker)event_user(0)
 collided = 1
@@ -259,7 +259,7 @@ collided = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_basicblock.launched =0
+            <string>obj_basicblock.launchede =0
 if collided = 0{
 with (obj_nextblocker)event_user(0)
 collided = 1

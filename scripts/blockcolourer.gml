@@ -1,6 +1,6 @@
 #define blockcolourer
 if argument0{
-if !launched{
+if !launchede{
 ColourSub()
 }
 }

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>launched = 0//var defining if the block has been fired
+            <string>launchede = 0//var defining if the block has been fired
 </string>
           </argument>
         </arguments>

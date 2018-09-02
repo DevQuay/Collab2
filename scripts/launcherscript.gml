@@ -16,10 +16,10 @@ if keyright {
     self.x += movedist;
 }
 }
-if !launched{
+if !launchede{
 if keylaunch{
     audio_play_sound(blockshoot,15,false)
-    launched = 1
+    launchede = 1
     obj_nextblock.launcherx = self.x
     obj_nextblock.launchery = self.y
     launchedobj = instance_create(self.x,self.y, obj_launchedblock)
