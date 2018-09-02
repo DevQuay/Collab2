@@ -2,7 +2,7 @@ movedist = 16
 mapoutlineoffset = 16
 leftborder = 96 //change leftborder to match in game placements
 rightborder = 384//change right border variable to match right wall of play area
-repeatdelay = 0.25
+repeatdelay = 0.15
 
 if KeyRepeat = 0{
 keyleft = keyboard_check_pressed(vk_left)
