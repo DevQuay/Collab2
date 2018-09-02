@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_nextblock" x="424" y="256" name="inst_95AF0C18" locked="0" code="" scaleX="2.13333344459534" scaleY="2.13333344459534" colour="4294967295" rotation="0"/>
     <instance objName="obj_basicblock" x="352" y="240" name="inst_40EFD6A5" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
-    <instance objName="debugobj" x="552" y="336" name="inst_FA9CFF2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="debugobj" x="464" y="304" name="inst_FA9CFF2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_launcherret" x="352" y="240" name="inst_63408FBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="80" y="32" name="inst_8B611754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="32" name="inst_91E97FA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -162,6 +162,7 @@
     <instance objName="obj_preplacedBlockBlue" x="176" y="48" name="inst_D048150E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nextblocker" x="436" y="204" name="inst_1AFF2A96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_scoreThing" x="40" y="256" name="inst_2281409E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nextliner" x="416" y="176" name="inst_145258F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background4" x="96" y="64" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_C959DDBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
