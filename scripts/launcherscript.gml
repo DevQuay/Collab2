@@ -18,6 +18,7 @@ if keyright {
 }
 if !launched{
 if keylaunch{
+    audio_play_sound(blockshoot,15,false)
     launched = 1
     obj_nextblock.launcherx = self.x
     obj_nextblock.launchery = self.y
