@@ -51,6 +51,7 @@
     <sprite>sprites\spr_blankedLauncher</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\launcherret</sprite>
+    <sprite>sprites\launched</sprite>
     <sprite>sprites\destroyanim</sprite>
     <sprite>sprites\Play</sprite>
     <sprite>sprites\sprite10</sprite>

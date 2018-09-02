@@ -86,7 +86,7 @@ self.blockcolour = obj_basicblock.blockcolour
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_blockparent">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>101</id>
@@ -178,7 +178,7 @@ collided = 1
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_wall">
+    <event eventtype="4" ename="obj_blockparent">
       <action>
         <libid>1</libid>
         <id>101</id>
