@@ -55,6 +55,10 @@
     <sprite>sprites\Play</sprite>
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_scoreThingy</sprite>
+    <sprite>sprites\pressenter</sprite>
+    <sprite>sprites\spr_transition1</sprite>
+    <sprite>sprites\spr_transition1_1</sprite>
     <sprites name="Blocks">
       <sprite>sprites\spr_redbox</sprite>
       <sprite>sprites\spr_greenbox</sprite>
@@ -64,10 +68,11 @@
       <sprite>sprites\spr_GreyBox</sprite>
       <sprite>sprites\spr_circle</sprite>
     </sprites>
-    <sprite>sprites\spr_scoreThingy</sprite>
-    <sprite>sprites\pressenter</sprite>
-    <sprite>sprites\spr_transition1</sprite>
-    <sprite>sprites\spr_transition1_1</sprite>
+    <sprites name="PreviewArrows">
+      <sprite>sprites\spr_previewarrowleft</sprite>
+      <sprite>sprites\spr_previewarrowright</sprite>
+      <sprite>sprites\spr_previewarrowtop</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -84,7 +89,7 @@
     <script>scripts\blockBreaker.gml</script>
     <script>scripts\colourchecker.gml</script>
     <script>scripts\nextblocker.gml</script>
-    <script>scripts\colourlist.gml</script>
+    <script>scripts\settingsScript.gml</script>
     <script>scripts\Summon_Next_Line.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -93,7 +98,6 @@
   <objects name="objects">
     <object>objects\obj_blockparent</object>
     <object>objects\obj_basicblock</object>
-    <object>objects\obj_nextblock</object>
     <object>objects\obj_launchedblock</object>
     <object>objects\obj_placedBlock</object>
     <object>objects\debugobj</object>
@@ -116,6 +120,15 @@
     <object>objects\obj_transition2</object>
     <object>objects\obj_transition1_1</object>
     <object>objects\obj_nextliner</object>
+    <objects name="Preview Objects">
+      <object>objects\obj_nextblock</object>
+      <object>objects\obj_leftpreview</object>
+      <object>objects\obj_nextblock2</object>
+      <object>objects\obj_toppreview</object>
+      <object>objects\obj_nextblock3</object>
+      <object>objects\obj_rightpreview</object>
+      <object>objects\obj_nextblock4</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
