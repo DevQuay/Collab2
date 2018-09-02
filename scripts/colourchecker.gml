@@ -17,6 +17,7 @@ if argument0 != noone{
         self.matched = 1 
         argument0.matched = 1 //block collided WITH 
             if !scoreadded{
+                audio_play_sound(match,20,false)
                 score += 10;
                 scoreadded = true
         }

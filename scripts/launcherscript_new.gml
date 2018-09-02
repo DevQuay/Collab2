@@ -1,4 +1,4 @@
-#define launcherscript
+#define launcherscript_new
 movedist = 16
 mapoutlineoffset = 16
 leftborder = 96 //change leftborder to match in game placements
@@ -24,13 +24,11 @@ keyright = keyboard_check_pressed(argument1)
 if x > leftborder{
 if keyleft {
     self.x -= movedist;
-    audio_play_sound(move,20,false)
 }
 }
 if x < rightborder - movedist{
 if keyright {
     self.x += movedist;
-    audio_play_sound(move,20,false)
 }
 }
 }
@@ -40,7 +38,6 @@ keyright = keyboard_check(argument1)
 if x > leftborder{
 if canMove{
 if keyleft {
-    audio_play_sound(move,20,false)
     self.x -= movedist;
     canMove = 0
     alarm[0] = room_speed*repeatdelay
@@ -50,7 +47,6 @@ if keyleft {
 if x < rightborder - movedist{
 if canMove{
 if keyright {
-    audio_play_sound(move,20,false)
     self.x += movedist;
     canMove = 0
     alarm[0] = room_speed*repeatdelay

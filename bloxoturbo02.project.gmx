@@ -45,6 +45,9 @@
     <sound>sound\sound2</sound>
     <sound>sound\blockshoot</sound>
     <sound>sound\main_menu_music</sound>
+    <sound>sound\match</sound>
+    <sound>sound\move</sound>
+    <sound>sound\clickynoise</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_BasicBlock</sprite>
@@ -62,10 +65,11 @@
     <sprite>sprites\spr_transition1_1</sprite>
     <sprites name="Blocks">
       <sprite>sprites\spr_redbox</sprite>
+      <sprite>sprites\spr_orangebox</sprite>
+      <sprite>sprites\spr_yellowbox</sprite>
       <sprite>sprites\spr_greenbox</sprite>
       <sprite>sprites\spr_bluebox</sprite>
       <sprite>sprites\spr_purplebox</sprite>
-      <sprite>sprites\spr_orangebox</sprite>
       <sprite>sprites\spr_GreyBox</sprite>
       <sprite>sprites\spr_circle</sprite>
     </sprites>
@@ -97,7 +101,6 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_blockparent</object>
     <object>objects\obj_basicblock</object>
     <object>objects\obj_launchedblock</object>
     <object>objects\obj_placedBlock</object>
@@ -108,19 +111,11 @@
     <object>objects\obj_NewGame</object>
     <object>objects\obj_options</object>
     <object>objects\musictest</object>
-    <object>objects\obj_preplacedBlockBlue</object>
-    <object>objects\obj_preplacedBlockGreen</object>
-    <object>objects\obj_preplacedBlockPurple</object>
-    <object>objects\obj_preplacedBlockRed</object>
-    <object>objects\obj_preplacedOrange</object>
     <object>objects\object16</object>
-    <object>objects\obj_nextblocker</object>
-    <object>objects\obj_scoreThing</object>
     <object>objects\Obj_enter</object>
     <object>objects\obj_transition1</object>
     <object>objects\obj_transition2</object>
     <object>objects\obj_transition1_1</object>
-    <object>objects\obj_nextliner</object>
     <objects name="Preview Objects">
       <object>objects\obj_nextblock</object>
       <object>objects\obj_leftpreview</object>
@@ -129,6 +124,25 @@
       <object>objects\obj_nextblock3</object>
       <object>objects\obj_rightpreview</object>
       <object>objects\obj_nextblock4</object>
+    </objects>
+    <objects name="PrePlaceable Blocks">
+      <objects name="Vital colours">
+        <object>objects\obj_preplacedBlockRed</object>
+        <object>objects\obj_preplacedBlockPurple</object>
+        <object>objects\obj_preplacedBlockGreen</object>
+        <object>objects\obj_preplacedBlockBlue</object>
+      </objects>
+      <objects name="Misc Colours">
+        <object>objects\obj_preplacedOrange</object>
+        <object>objects\obj_preplacedYellow</object>
+        <object>objects\obj_preplacedGrey</object>
+      </objects>
+    </objects>
+    <objects name="Critical Game Objects">
+      <object>objects\obj_blockparent</object>
+      <object>objects\obj_nextblocker</object>
+      <object>objects\obj_nextliner</object>
+      <object>objects\obj_scoreThing</object>
     </objects>
   </objects>
   <rooms name="rooms">

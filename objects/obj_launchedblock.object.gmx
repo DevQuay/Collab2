@@ -169,6 +169,7 @@ self.blockcolour = obj_basicblock.blockcolour
             <kind>1</kind>
             <string>obj_basicblock.launchede =0
 if collided = 0{
+audio_play_sound(clickynoise,25,false)
 with (obj_nextblocker)event_user(0)
 collided = 1
 }
@@ -261,6 +262,7 @@ collided = 1
             <kind>1</kind>
             <string>obj_basicblock.launchede =0
 if collided = 0{
+audio_play_sound(clickynoise,25,false)
 with (obj_nextblocker)event_user(0)
 collided = 1
 }
