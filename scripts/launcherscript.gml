@@ -4,17 +4,18 @@ mapoutlineoffset = 16
 leftborder = 96 //change leftborder to match in game placements
 rightborder = 384//change right border variable to match right wall of play area
 repeatdelay = 0.15
+
+if object_index = obj_holdobject{
+HoldBit(vk_down)
+HoldBit(ord("S"))
+}
+if object_index != obj_holdobject{
 LRMove(vk_left,vk_right)
 LRMove(ord("A"),ord("D"))
 
 LauncherBit(vk_up)
 LauncherBit(ord("W"))
-
-/*
-HoldBit(vk_down)
-HoldBit(ord("S"))
-*/
-
+}
 
 #define LRMove
 ///LRMove(keyLeft, keyRight)
@@ -67,6 +68,7 @@ if !launchede{
 if keylaunch{
     audio_play_sound(blockshoot,15,false)
     launchede = 1
+    obj_holdobject.canHold = 0
     obj_nextblock.launcherx = self.x
     obj_nextblock.launchery = self.y
     launchedobj = instance_create(self.x,self.y, obj_launchedblock)
@@ -79,3 +81,20 @@ if keylaunch{
 
 #define HoldBit
 ///HoldBit(HoldKey)
+keyhold = keyboard_check_pressed(argument0)
+if keyhold{
+    if !swappedalready{//called on the first hold action ONLY
+        self.heldcolour = obj_basicblock.blockcolour
+        nextblocker()
+        swappedalready = 1
+        swapped = 1
+        }
+    if swapped{//called every time after
+        if canHold{
+            self.holdingcolour = self.heldcolour
+            self.heldcolour = obj_basicblock.blockcolour
+            obj_basicblock.blockcolour = self.holdingcolour
+            canHold = 0
+        }
+    }
+}

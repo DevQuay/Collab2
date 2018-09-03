@@ -143,6 +143,7 @@
       <object>objects\obj_nextblocker</object>
       <object>objects\obj_nextliner</object>
       <object>objects\obj_scoreThing</object>
+      <object>objects\obj_holdobject</object>
     </objects>
   </objects>
   <rooms name="rooms">
