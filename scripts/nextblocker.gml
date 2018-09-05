@@ -11,8 +11,16 @@ nextblockdisplay3 = obj_nextblock4//the block that shows the next one
 nextblockcol = irandom_range(0,(array_length_1d(colours)-1))//select next random colour
 
 //set colour on launcher
+if argument0{ 
+nextblockdisplay.blockcolour = nextblockdisplay1.blockcolour
+nextblockdisplay1.blockcolour = nextblockdisplay2.blockcolour   
+nextblockdisplay2.blockcolour = nextblockdisplay3.blockcolour   
+nextblockdisplay3.blockcolour = nextblockcol
+}
+else{
 nextblockalong.blockcolour = nextblockdisplay.blockcolour 
 nextblockdisplay.blockcolour = nextblockdisplay1.blockcolour
 nextblockdisplay1.blockcolour = nextblockdisplay2.blockcolour   
 nextblockdisplay2.blockcolour = nextblockdisplay3.blockcolour   
 nextblockdisplay3.blockcolour = nextblockcol
+}

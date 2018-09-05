@@ -85,7 +85,7 @@ keyhold = keyboard_check_pressed(argument0)
 if keyhold{
     if !swappedalready{//called on the first hold action ONLY
         self.heldcolour = obj_basicblock.blockcolour
-        nextblocker()
+        nextblocker(true)
         swappedalready = 1
         swapped = 1
         }
