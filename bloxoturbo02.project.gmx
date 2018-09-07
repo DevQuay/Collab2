@@ -131,9 +131,9 @@
         <object>objects\obj_preplacedBlockPurple</object>
         <object>objects\obj_preplacedBlockGreen</object>
         <object>objects\obj_preplacedBlockBlue</object>
+        <object>objects\obj_preplacedOrange</object>
       </objects>
       <objects name="Misc Colours">
-        <object>objects\obj_preplacedOrange</object>
         <object>objects\obj_preplacedYellow</object>
         <object>objects\obj_preplacedGrey</object>
       </objects>
@@ -143,6 +143,7 @@
       <object>objects\obj_nextblocker</object>
       <object>objects\obj_nextliner</object>
       <object>objects\obj_scoreThing</object>
+      <object>objects\obj_holdobject</object>
     </objects>
   </objects>
   <rooms name="rooms">

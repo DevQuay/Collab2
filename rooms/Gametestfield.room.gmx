@@ -169,6 +169,7 @@
     <instance objName="obj_leftpreview" x="416" y="256" name="inst_B34C4A1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toppreview" x="432" y="240" name="inst_78CBA80A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rightpreview" x="448" y="256" name="inst_AF812879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holdobject" x="32" y="48" name="inst_B15DB66B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background4" x="96" y="64" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_C959DDBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

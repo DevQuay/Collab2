@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>launchede = 0//var defining if the block has been fired
 canMove = 1
+
 </string>
           </argument>
         </arguments>
@@ -51,7 +52,7 @@ canMove = 1
           </argument>
           <argument>
             <kind>0</kind>
-            <string></string>
+            <string>false</string>
           </argument>
           <argument>
             <kind>0</kind>
