@@ -124,6 +124,7 @@
       <object>objects\obj_nextblock3</object>
       <object>objects\obj_rightpreview</object>
       <object>objects\obj_nextblock4</object>
+      <object>objects\PreviewParent</object>
     </objects>
     <objects name="PrePlaceable Blocks">
       <objects name="Vital colours">

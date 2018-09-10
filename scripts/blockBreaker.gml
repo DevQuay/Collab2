@@ -3,6 +3,7 @@ Result = argument1;//resulting object
 ChangeThresh = (sprite_get_number(argument0)-1);//used to adapt the script to any length of animation
 nextcheck = self.nextcheck
 if matched{
+image_speed = 1
 if nextcheck==0{
 colourchecker()
 nextcheck = 1
