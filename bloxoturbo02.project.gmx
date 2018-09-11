@@ -78,6 +78,9 @@
       <sprite>sprites\spr_previewarrowright</sprite>
       <sprite>sprites\spr_previewarrowtop</sprite>
     </sprites>
+    <sprite>sprites\background1_1</sprite>
+    <sprite>sprites\background1_2</sprite>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -85,6 +88,7 @@
     <background>background\background2</background>
     <background>background\background3</background>
     <background>background\background4</background>
+    <background>background\introbackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -146,6 +150,11 @@
       <object>objects\obj_scoreThing</object>
       <object>objects\obj_holdobject</object>
     </objects>
+    <object>objects\background1_10</object>
+    <object>objects\object36</object>
+    <object>objects\object37</object>
+    <object>objects\object38</object>
+    <object>objects\logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
