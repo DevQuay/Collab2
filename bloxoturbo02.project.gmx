@@ -78,6 +78,10 @@
       <sprite>sprites\spr_previewarrowright</sprite>
       <sprite>sprites\spr_previewarrowtop</sprite>
     </sprites>
+    <sprite>sprites\spr_LoseBarMiddle</sprite>
+    <sprite>sprites\spr_LoseBarLeft</sprite>
+    <sprite>sprites\spr_LoseBarRight</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -145,6 +149,12 @@
       <object>objects\obj_nextliner</object>
       <object>objects\obj_scoreThing</object>
       <object>objects\obj_holdobject</object>
+    </objects>
+    <objects name="LoseBar">
+      <object>objects\obj_LoseBarP</object>
+      <object>objects\obj_LoseBarM</object>
+      <object>objects\obj_LoseBarL</object>
+      <object>objects\obj_LoseBarR</object>
     </objects>
   </objects>
   <rooms name="rooms">
