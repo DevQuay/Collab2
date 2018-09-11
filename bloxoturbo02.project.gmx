@@ -85,6 +85,7 @@
     <sprite>sprites\background1_1</sprite>
     <sprite>sprites\background1_2</sprite>
     <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\spr_gameover</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -165,11 +166,13 @@
     <object>objects\object37</object>
     <object>objects\object38</object>
     <object>objects\logo</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
     <room>rooms\Gametestfield</room>
+    <room>rooms\GAME_OVER</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
