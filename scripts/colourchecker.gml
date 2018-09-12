@@ -13,6 +13,19 @@ check(upcheck)
 
 #define check
 if argument0 != noone{
+    if argument0.blockcolour = 0{
+        self.matched = 1 
+        argument0.matched = 1 //block collided WITH
+        self.image_speed = 1
+        argument0.image_speed = 1 
+            if !scoreadded{
+                audio_play_sound(match,20,false)
+                score += 10;
+                scoreadded = true   
+            }
+        instance_change(obj_explodething,true)
+        with argument0 instance_change(obj_explodething,true)
+        }
     if argument0.blockcolour = self.blockcolour{
         self.matched = 1 
         argument0.matched = 1 //block collided WITH 
