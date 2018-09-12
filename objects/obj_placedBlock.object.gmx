@@ -41,6 +41,7 @@
             <kind>1</kind>
             <string>collided = 0
 crossedbar = 1
+ignorecollision = 0
 self.blockcolour = irandom_range(0,(array_length_1d(colours)-1))
 </string>
           </argument>
