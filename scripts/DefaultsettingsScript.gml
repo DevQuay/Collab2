@@ -1,3 +1,9 @@
+//Globalize
+globalvar colours;
+globalvar PreviewSetting;
+globalvar KeyRepeat;
+globalvar graceperiod;
+globalvar interval;
 //colourlist
 //vital colours
 colours[0] = spr_redbox
@@ -13,3 +19,8 @@ colours[4] = spr_orangebox
 //Settings
 PreviewSetting = 4
 KeyRepeat = 1
+graceperiod = 30
+interval = 30
+
+//randomize
+//randomize()
