@@ -23,8 +23,8 @@ if argument0 != noone{
                 score += 10;
                 scoreadded = true   
             }
-        instance_change(obj_explodething,true)
-        with argument0 instance_change(obj_explodething,true)
+        instance_create(self.x,self.y,obj_explodething)
+        instance_destroy(self)
         }
     if argument0.blockcolour = self.blockcolour{
         self.matched = 1 
