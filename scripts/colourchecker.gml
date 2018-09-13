@@ -23,7 +23,7 @@ if argument0 != noone{
                 score += 10;
                 scoreadded = true   
             }
-        instance_create(self.x,self.y,obj_explodething)
+        instance_create(argument0.x,argument0.y,obj_explodething)
         instance_destroy(self)
         }
     if argument0.blockcolour = self.blockcolour{
