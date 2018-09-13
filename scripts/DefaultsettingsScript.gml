@@ -6,15 +6,16 @@ globalvar graceperiod;
 globalvar interval;
 //colourlist
 //vital colours
-colours[0] = spr_redbox
-colours[1] = spr_purplebox
-colours[2] = spr_greenbox
-colours[3] = spr_bluebox
-colours[4] = spr_orangebox
+colours[0] = spr_explodingbox
+colours[1] = spr_redbox
+colours[2] = spr_purplebox
+colours[3] = spr_greenbox
+colours[4] = spr_bluebox
+colours[5] = spr_orangebox
 
 //misc colours
-//colours[5] = spr_yellowbox
-//colours[6] = spr_GreyBox
+//colours[6] = spr_yellowbox
+//colours[7] = spr_GreyBox
 
 //Settings
 PreviewSetting = 4

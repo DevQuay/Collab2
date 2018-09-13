@@ -345,11 +345,13 @@ obj_holdobject.canHold = 1
             <string>times = 1
 lean = 0//point_direction(0,0,obj_basicblock.x,obj_basicblock.y)+45
 if !matched{
+image_speed = 0
 for(var i = 0 ; i &lt; image_number;i++){
     draw_sprite_ext(sprite_index, i,x-times*i,y-times*i,image_xscale,image_yscale,lean,image_blend,image_alpha);
 }
 }
 else {
+image_speed = 1
 draw_self()
 }
 </string>

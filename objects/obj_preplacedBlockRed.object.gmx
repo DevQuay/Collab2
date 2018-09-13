@@ -39,7 +39,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>blockcolour = 0
+            <string>blockcolour = 1
 </string>
           </argument>
         </arguments>

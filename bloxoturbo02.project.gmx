@@ -64,6 +64,7 @@
     <sprite>sprites\spr_transition1</sprite>
     <sprite>sprites\spr_transition1_1</sprite>
     <sprites name="Blocks">
+      <sprite>sprites\spr_explodingbox</sprite>
       <sprite>sprites\spr_redbox</sprite>
       <sprite>sprites\spr_orangebox</sprite>
       <sprite>sprites\spr_yellowbox</sprite>
@@ -86,6 +87,7 @@
     <sprite>sprites\background1_2</sprite>
     <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\spr_explodingthing</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -167,6 +169,7 @@
     <object>objects\object38</object>
     <object>objects\logo</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_explodething</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
