@@ -156,6 +156,7 @@
       <object>objects\obj_nextliner</object>
       <object>objects\obj_scoreThing</object>
       <object>objects\obj_holdobject</object>
+      <object>objects\TutorialScripter</object>
     </objects>
     <objects name="LoseBar">
       <object>objects\obj_LoseBarP</object>
@@ -176,6 +177,7 @@
     <room>rooms\MainMenu</room>
     <room>rooms\Gametestfield</room>
     <room>rooms\GAME_OVER</room>
+    <room>rooms\Test_Tutorial_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
