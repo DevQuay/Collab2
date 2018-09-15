@@ -4,6 +4,7 @@ globalvar PreviewSetting;
 globalvar KeyRepeat;
 globalvar graceperiod;
 globalvar interval;
+globalvar AllowMouseControl;
 //colourlist
 //vital colours
 colours[0] = spr_explodingbox
@@ -18,10 +19,10 @@ colours[5] = spr_orangebox
 //colours[7] = spr_GreyBox
 
 //Settings
-PreviewSetting = 4
-KeyRepeat = 1
-graceperiod = 30
-interval = 30
-
+PreviewSetting = 4;
+KeyRepeat = 1;
+graceperiod = 30;
+interval = 30;
+AllowMouseControl = 1;
 //randomize
 //randomize()
