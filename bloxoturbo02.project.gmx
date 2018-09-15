@@ -88,6 +88,7 @@
     <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_explodingthing</sprite>
+    <sprite>sprites\cursorimg</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -171,6 +172,7 @@
     <object>objects\logo</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_explodething</object>
+    <object>objects\cursor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
