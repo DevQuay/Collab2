@@ -1,11 +1,17 @@
 This Is A Basic TimeLine Of The Tutorial
 
 Introduce The Launcher (Outline Box Around, and a "this is the launcher" text)
-|
+| "<Button> To Continue!"
 V
 Introduce The Fail Line (same way as the launcher)
-|
+| "<Button> To Continue!"
 V
 Movement (Pop text up, and give a text or visual prompt)
-|
+|  Only move on when the player moves
+V
+Introduce the Queue (Outline and include text box)
+| "<Button> To Continue!"
+V
+Shooting (Pop text up, place a single block in the room, and place a matching block on the launcher)
+| Move on when the player makes a match, until then, make the queue match the block that is on the map
 V

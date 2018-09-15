@@ -6,15 +6,22 @@ rightborder = 384//change right border variable to match right wall of play area
 repeatdelay = 0.15
 
 if object_index = obj_holdobject{
-HoldBit(vk_down)
-HoldBit(ord("S"))
+HoldBit(vk_down,0)
+HoldBit(ord("S"),0)
+if AllowMouseControl{
+HoldBit(mb_right,1)
+}
 }
 if object_index != obj_holdobject{
 LRMove(vk_left,vk_right)
 LRMove(ord("A"),ord("D"))
 
-LauncherBit(vk_up)
-LauncherBit(ord("W"))
+LauncherBit(vk_up,0)
+LauncherBit(ord("W"),0)
+if AllowMouseControl{
+LauncherBit(mb_left,1)
+MouseMove()
+}
 }
 
 #define LRMove
@@ -63,7 +70,12 @@ if keyright {
 
 #define LauncherBit
 ///LauncherBit(keyLaunch)
+if argument1 = 0{
 keylaunch = keyboard_check_pressed(argument0)
+}
+if argument1 = 1{
+keylaunch = mouse_check_button_pressed(argument0)
+}
 if !launchede{
 if keylaunch{
     audio_play_sound(blockshoot,15,false)
@@ -83,7 +95,13 @@ if keylaunch{
 
 #define HoldBit
 ///HoldBit(HoldKey)
+if argument1 = 0{
 keyhold = keyboard_check_pressed(argument0)
+}
+if argument1 = 1{
+keyhold = mouse_check_button_pressed(argument0)
+}
+
 if keyhold{
     if !swappedalready{//called on the first hold action ONLY
         self.heldcolour = obj_basicblock.blockcolour
@@ -99,4 +117,19 @@ if keyhold{
             canHold = 0
         }
     }
+}
+
+#define MouseMove
+
+if point_distance(self.x,self.y,mouse_x,self.y) >= 8{
+if x < rightborder - movedist{
+if self.x<mouse_x{
+self.x+=16;
+}
+}
+if x > leftborder{
+if self.x>mouse_x{
+self.x-=16;
+}
+}
 }
