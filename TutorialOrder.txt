@@ -3,7 +3,7 @@ This Is A Basic TimeLine Of The Tutorial
 Introduce The Launcher (Outline Box Around, and a "this is the launcher" text)
 |
 V
-Introduce The Fail Line(same way as the launcher)
+Introduce The Fail Line (same way as the launcher)
 |
 V
 Movement (Pop text up, and give a text or visual prompt)

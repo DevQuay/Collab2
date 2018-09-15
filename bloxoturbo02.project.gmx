@@ -107,6 +107,7 @@
     <script>scripts\nextblocker.gml</script>
     <script>scripts\Summon_Next_Line.gml</script>
     <script>scripts\DefaultsettingsScript.gml</script>
+    <script>scripts\Tutorial_Room_Script.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
