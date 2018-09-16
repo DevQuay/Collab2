@@ -90,6 +90,8 @@
     <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_explodingthing</sprite>
+    <sprite>sprites\blockpannelBG</sprite>
+    <sprite>sprites\sprite36</sprite>
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
   </sprites>
@@ -122,6 +124,7 @@
   <objects name="objects">
     <object>objects\obj_basicblock</object>
     <object>objects\obj_placedBlock</object>
+    <object>objects\obj_launchedblock</object>
     <object>objects\debugobj</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_launcherret</object>
@@ -180,6 +183,8 @@
     <object>objects\obj_explodething</object>
     <object>objects\cursor</object>
     <object>objects\obj_holdoutline</object>
+    <object>objects\block_pannel</object>
+    <object>objects\object49</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
