@@ -66,7 +66,6 @@ if keyright {
     self.x += movedist;
     canMove = 0
     alarm[0] = room_speed*repeatdelay
-    motion_blur(10,0);
 }
 }
 }
