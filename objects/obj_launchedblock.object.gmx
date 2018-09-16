@@ -342,7 +342,6 @@ obj_holdobject.canHold = 1
         <arguments>
           <argument>
             <kind>1</kind>
-
             <string>times = 1
 
 lean = 0//point_direction(0,0,obj_basicblock.x,obj_basicblock.y)+45
@@ -358,10 +357,9 @@ draw_self()
 }
 
 </string>
-
-        </argument>
-</arguments>
-</action>	
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
