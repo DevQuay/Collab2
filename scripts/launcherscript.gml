@@ -6,18 +6,22 @@ rightborder = 384//change right border variable to match right wall of play area
 repeatdelay = 0.15
 
 if object_index = obj_holdobject{
-HoldBit(vk_down,0)
-HoldBit(ord("S"),0)
 if AllowMouseControl{
 HoldBit(mb_right,1)
 }
+if !AllowMouseControl{
+HoldBit(vk_down,0)
+HoldBit(ord("S"),0)
+}
 }
 if object_index != obj_holdobject{
+if !AllowMouseControl{
 LRMove(vk_left,vk_right)
 LRMove(ord("A"),ord("D"))
 
 LauncherBit(vk_up,0)
 LauncherBit(ord("W"),0)
+}
 if AllowMouseControl{
 LauncherBit(mb_left,1)
 MouseMove()
@@ -125,11 +129,13 @@ if point_distance(self.x,self.y,mouse_x,self.y) >= 8{
 if x < rightborder - movedist{
 if self.x<mouse_x{
 self.x+=16;
+
 }
 }
 if x > leftborder{
 if self.x>mouse_x{
 self.x-=16;
+
 }
 }
 }
