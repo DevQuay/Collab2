@@ -41,7 +41,6 @@
             <kind>1</kind>
             <string>collided = 0
 self.blockcolour = obj_basicblock.blockcolour
-motion_blur(1000,-180);
 </string>
           </argument>
         </arguments>
@@ -343,7 +342,7 @@ obj_holdobject.canHold = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>motion_blur(10000,90);
+            <string>
 times = 1
 lean = 0//point_direction(0,0,obj_basicblock.x,obj_basicblock.y)+45
 if !matched{
