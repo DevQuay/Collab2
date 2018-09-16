@@ -342,7 +342,12 @@ obj_holdobject.canHold = 1
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
             <string>times = 1
+=======
+            <string>
+times = 1
+>>>>>>> 3068db200d5ee34a71a671cd52f9b4fddb9ca2fd
 lean = 0//point_direction(0,0,obj_basicblock.x,obj_basicblock.y)+45
 if !matched{
 image_speed = 0
