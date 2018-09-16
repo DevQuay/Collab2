@@ -121,7 +121,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_basicblock</object>
-    <object>objects\obj_launchedblock</object>
     <object>objects\obj_placedBlock</object>
     <object>objects\debugobj</object>
     <object>objects\obj_wall</object>
