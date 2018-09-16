@@ -39,7 +39,9 @@
       <filename>Lalezar-Regular.ttf</filename>
     </datafile>
   </datafiles>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Chromatic Aberration Shader</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sound>sound\sound0</sound>
     <sound>sound\sound2</sound>
@@ -89,6 +91,7 @@
     <sprite>sprites\spr_gameover</sprite>
     <sprite>sprites\spr_explodingthing</sprite>
     <sprite>sprites\cursorimg</sprite>
+    <sprite>sprites\spr_holdoutline</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -110,6 +113,9 @@
     <script>scripts\DefaultsettingsScript.gml</script>
     <script>scripts\Tutorial_Room_Script.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\sh_aberration.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
@@ -174,6 +180,7 @@
     <object>objects\obj_gameover</object>
     <object>objects\obj_explodething</object>
     <object>objects\cursor</object>
+    <object>objects\obj_holdoutline</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
