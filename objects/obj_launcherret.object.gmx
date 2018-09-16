@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>self.x = obj_basicblock.x
 self.y = obj_basicblock.y
+
 </string>
           </argument>
         </arguments>
