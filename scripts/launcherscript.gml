@@ -125,7 +125,7 @@ if keyhold{
 
 #define MouseMove
 
-if point_distance(self.x,self.y,mouse_x,self.y) >= 8{
+if point_distance(self.x,self.y,mouse_x,self.y) >= 4{
 if x < rightborder - movedist{
 if self.x<mouse_x{
 self.x+=16;
