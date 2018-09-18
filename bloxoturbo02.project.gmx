@@ -111,6 +111,11 @@
     <sprite>sprites\sprite36</sprite>
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
+    <sprites name="PauseMenu">
+      <sprite>sprites\spr_ResumeButton</sprite>
+      <sprite>sprites\spr_RoomDarkener</sprite>
+      <sprite>sprites\spr_PausedText</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -184,6 +189,7 @@
       <object>objects\obj_scoreThing</object>
       <object>objects\obj_holdobject</object>
       <object>objects\TutorialScripter</object>
+      <object>objects\obj_pauser</object>
     </objects>
     <objects name="LoseBar">
       <object>objects\obj_LoseBarP</object>
@@ -202,6 +208,12 @@
     <object>objects\obj_holdoutline</object>
     <object>objects\block_pannel</object>
     <object>objects\object49</object>
+    <objects name="PauseMenu">
+      <object>objects\obj_ResumeButton</object>
+      <object>objects\PauseParent</object>
+      <object>objects\obj_RoomDarkener</object>
+      <object>objects\obj_PauseText</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>

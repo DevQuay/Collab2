@@ -5,6 +5,8 @@ globalvar KeyRepeat;
 globalvar graceperiod;
 globalvar interval;
 globalvar AllowMouseControl;
+globalvar paused;
+globalvar LeavingPause;
 //colourlist
 //vital colours
 colours[0] = spr_explodingbox
@@ -24,5 +26,7 @@ KeyRepeat = 1;
 graceperiod = 30;
 interval = 30;
 AllowMouseControl = 1;
+paused = 0;
+LeavingPause = 0;
 //randomize
 //randomize()
