@@ -119,6 +119,7 @@
     <background>background\background3</background>
     <background>background\background4</background>
     <background>background\introbackground</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
