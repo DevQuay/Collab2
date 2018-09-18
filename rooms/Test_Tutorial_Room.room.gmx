@@ -142,6 +142,7 @@
     <instance objName="obj_LoseBarM" x="288" y="192" name="inst_C7D830D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_LoseBarM" x="320" y="192" name="inst_37E3F5CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_LoseBarR" x="352" y="192" name="inst_E979F692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pauser" x="424" y="256" name="inst_291A4034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background4" x="96" y="64" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_C959DDBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

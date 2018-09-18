@@ -92,30 +92,37 @@
       <sprite>sprites\spr_purplebox</sprite>
       <sprite>sprites\spr_GreyBox</sprite>
       <sprite>sprites\spr_circle</sprite>
+      <sprite>sprites\spr_explodingthing</sprite>
     </sprites>
     <sprites name="PreviewArrows">
       <sprite>sprites\spr_previewarrowleft</sprite>
       <sprite>sprites\spr_previewarrowright</sprite>
       <sprite>sprites\spr_previewarrowtop</sprite>
     </sprites>
-    <sprite>sprites\spr_LoseBarMiddle</sprite>
-    <sprite>sprites\spr_LoseBarLeft</sprite>
-    <sprite>sprites\spr_LoseBarRight</sprite>
-    <sprite>sprites\sprite27</sprite>
-    <sprite>sprites\background1_1</sprite>
-    <sprite>sprites\background1_2</sprite>
-    <sprite>sprites\sprite26</sprite>
-    <sprite>sprites\spr_gameover</sprite>
-    <sprite>sprites\spr_explodingthing</sprite>
-    <sprite>sprites\blockpannelBG</sprite>
-    <sprite>sprites\sprite36</sprite>
-    <sprite>sprites\cursorimg</sprite>
-    <sprite>sprites\spr_holdoutline</sprite>
     <sprites name="PauseMenu">
       <sprite>sprites\spr_ResumeButton</sprite>
       <sprite>sprites\spr_RoomDarkener</sprite>
       <sprite>sprites\spr_PausedText</sprite>
     </sprites>
+    <sprites name="LoseBar">
+      <sprite>sprites\spr_LoseBarLeft</sprite>
+      <sprite>sprites\spr_LoseBarMiddle</sprite>
+      <sprite>sprites\spr_LoseBarRight</sprite>
+    </sprites>
+    <sprites name="OptionsMenu">
+      <sprite>sprites\spr_LeftButton</sprite>
+      <sprite>sprites\spr_RightButton</sprite>
+      <sprite>sprites\spr_MouseMode</sprite>
+    </sprites>
+    <sprite>sprites\background1_1</sprite>
+    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\background1_2</sprite>
+    <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\spr_gameover</sprite>
+    <sprite>sprites\blockpannelBG</sprite>
+    <sprite>sprites\sprite36</sprite>
+    <sprite>sprites\cursorimg</sprite>
+    <sprite>sprites\spr_holdoutline</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -198,6 +205,18 @@
       <object>objects\obj_LoseBarL</object>
       <object>objects\obj_LoseBarR</object>
     </objects>
+    <objects name="PauseMenu">
+      <object>objects\obj_ResumeButton</object>
+      <object>objects\PauseParent</object>
+      <object>objects\obj_RoomDarkener</object>
+      <object>objects\obj_PauseText</object>
+      <object>objects\obj_PauseMouse</object>
+    </objects>
+    <objects name="Options Menu">
+      <object>objects\LeftButton1</object>
+      <object>objects\RightButton1</object>
+      <object>objects\obj_MouseMode</object>
+    </objects>
     <object>objects\background1_10</object>
     <object>objects\object36</object>
     <object>objects\object37</object>
@@ -209,16 +228,12 @@
     <object>objects\obj_holdoutline</object>
     <object>objects\block_pannel</object>
     <object>objects\object49</object>
-    <objects name="PauseMenu">
-      <object>objects\obj_ResumeButton</object>
-      <object>objects\PauseParent</object>
-      <object>objects\obj_RoomDarkener</object>
-      <object>objects\obj_PauseText</object>
-    </objects>
+    <object>objects\obj_backbutton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\optionsroom</room>
     <room>rooms\Gametestfield</room>
     <room>rooms\GAME_OVER</room>
     <room>rooms\Test_Tutorial_Room</room>
