@@ -60,7 +60,6 @@
     <extension index="0">extensions\Chromatic Aberration Shader</extension>
   </NewExtensions>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
     <sound>sound\sound2</sound>
     <sound>sound\blockshoot</sound>
     <sound>sound\main_menu_music</sound>
