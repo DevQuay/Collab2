@@ -5,5 +5,3 @@ launcher_intro()
 }
 
 #define launcher_intro
-
-#define fail_line_intro

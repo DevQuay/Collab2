@@ -78,7 +78,6 @@
     <sprite>sprites\Options</sprite>
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_scoreThingy</sprite>
-    <sprite>sprites\pressenter</sprite>
     <sprite>sprites\spr_transition1</sprite>
     <sprite>sprites\spr_transition1_1</sprite>
     <sprites name="Blocks">
@@ -113,6 +112,9 @@
       <sprite>sprites\spr_RightButton</sprite>
       <sprite>sprites\spr_MouseMode</sprite>
     </sprites>
+    <sprites name="MainMenu">
+      <sprite>sprites\pressenter</sprite>
+    </sprites>
     <sprite>sprites\background1_1</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\background1_2</sprite>
@@ -122,6 +124,7 @@
     <sprite>sprites\sprite36</sprite>
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
+    <sprite>sprites\spr_Tutorital</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -228,6 +231,7 @@
     <object>objects\block_pannel</object>
     <object>objects\object49</object>
     <object>objects\obj_backbutton</object>
+    <object>objects\obj_Tutorital</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>

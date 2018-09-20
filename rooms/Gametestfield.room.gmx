@@ -3,8 +3,8 @@
   <caption></caption>
   <width>480</width>
   <height>320</height>
-  <vsnap>1</vsnap>
-  <hsnap>1</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>120</speed>
   <persistent>0</persistent>
@@ -178,10 +178,11 @@
     <instance objName="obj_LoseBarM" x="320" y="192" name="inst_37E3F5CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_LoseBarR" x="352" y="192" name="inst_E979F692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_LoseBarM" x="160" y="192" name="inst_D002AC1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_holdoutline" x="40" y="144" name="inst_158A4557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holdoutline" x="456" y="288" name="inst_158A4557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="block_pannel" x="415" y="48" name="inst_41089EF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object49" x="415" y="29" name="inst_48D75599" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pauser" x="456" y="208" name="inst_C38C0AD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Tutorital" x="40" y="144" name="inst_195C549F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background4" x="96" y="64" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_C959DDBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
