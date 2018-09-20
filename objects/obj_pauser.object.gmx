@@ -26,13 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>if paused=1{
-obj_nextliner.alarm[0] = SavedAlarm
+with obj_nextliner.alarm[0] = SavedAlarm[0]
 paused = 0
 }
 else if paused=0{
 SavedAlarm = obj_nextliner.alarm[0]
 instance_create((room_width/2),40,obj_PauseText)
-obj_nextliner.alarm[0] = -1
+with obj_nextliner.alarm[0] = -1
 paused = 1
 }
 </string>
