@@ -5,6 +5,7 @@ leftborder = 96 //change leftborder to match in game placements
 rightborder = 384//change right border variable to match right wall of play area
 repeatdelay = 0.15
 if paused = 0{
+
 if object_index = obj_holdobject{
 if AllowMouseControl{
 HoldBit(mb_right,1)

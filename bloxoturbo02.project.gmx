@@ -146,6 +146,44 @@
     <script>scripts\Summon_Next_Line.gml</script>
     <script>scripts\DefaultsettingsScript.gml</script>
     <script>scripts\Tutorial_Room_Script.gml</script>
+    <scripts name="Scriptstoimportinyourgame">
+      <script>scripts\gj_init.gml</script>
+      <script>scripts\gj_result_id.gml</script>
+      <script>scripts\gj_result_status.gml</script>
+      <script>scripts\gj_result_error.gml</script>
+      <script>scripts\gj_result_data_count.gml</script>
+      <script>scripts\gj_result_data_field.gml</script>
+      <script>scripts\gj_result_data_field_num.gml</script>
+      <script>scripts\gj_result_clear.gml</script>
+      <script>scripts\gj_user_login.gml</script>
+      <script>scripts\gj_user_logout.gml</script>
+      <script>scripts\gj_user_isloggedin.gml</script>
+      <script>scripts\gj_user_username.gml</script>
+      <script>scripts\gj_user_info_fromusername.gml</script>
+      <script>scripts\gj_user_info_fromuserid.gml</script>
+      <script>scripts\gj_session_open.gml</script>
+      <script>scripts\gj_session_ping.gml</script>
+      <script>scripts\gj_session_close.gml</script>
+      <script>scripts\gj_trophy_get.gml</script>
+      <script>scripts\gj_trophy_get_id.gml</script>
+      <script>scripts\gj_trophy_add.gml</script>
+      <script>scripts\gj_scores_add.gml</script>
+      <script>scripts\gj_scores_add_guest.gml</script>
+      <script>scripts\gj_scores_get.gml</script>
+      <script>scripts\gj_scores_get_user.gml</script>
+      <script>scripts\gj_scores_tables.gml</script>
+      <script>scripts\gj_datastore_set_global.gml</script>
+      <script>scripts\gj_datastore_set_user.gml</script>
+      <script>scripts\gj_datastore_remove_global.gml</script>
+      <script>scripts\gj_datastore_remove_user.gml</script>
+      <script>scripts\gj_datastore_get_global.gml</script>
+      <script>scripts\gj_datastore_get_user.gml</script>
+      <script>scripts\gj_datastore_keys_global.gml</script>
+      <script>scripts\gj_datastore_keys_user.gml</script>
+      <script>scripts\gj_datastore_update_global.gml</script>
+      <script>scripts\gj_datastore_update_user.gml</script>
+      <script>scripts\gj_user_autologin.gml</script>
+    </scripts>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\sh_aberration.shader</shader>
@@ -200,6 +238,7 @@
       <object>objects\obj_holdobject</object>
       <object>objects\TutorialScripter</object>
       <object>objects\obj_pauser</object>
+      <object>objects\fonterizer</object>
     </objects>
     <objects name="LoseBar">
       <object>objects\obj_LoseBarP</object>
@@ -232,6 +271,8 @@
     <object>objects\object49</object>
     <object>objects\obj_backbutton</object>
     <object>objects\obj_Tutorital</object>
+    <object>objects\obj_GJctrlr</object>
+    <object>objects\obj_loggedonas</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>

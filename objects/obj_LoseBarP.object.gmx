@@ -84,7 +84,10 @@
         other.crossedbar = 1
     }
     if other.crossedbar = 1{
-        room_goto(GAME_OVER)
+    room_goto(GAME_OVER)
+    if (gj_user_isloggedin()){
+    request[1] = gj_scores_add("374859", string(score)+"points", score,"");
+    }
     }
 }
 </string>
