@@ -79,12 +79,22 @@ alarm[0]=30*room_speed; // To continue pinging
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if score &gt; 20{
+            <string>if score == 20{
+    if !gj_trophy_get_id("98647")
     gj_trophy_add("98647");
 }
 else if score &gt; 1000{
+    if !gj_trophy_get_id("98648")
     gj_trophy_add("98648");
 }
+else if score &gt; 2000{
+    if !gj_trophy_get_id("98651")
+    gj_trophy_add("98651");
+}
+else if AllowMouseControl = 0{
+if !gj_trophy_get_id("98650")
+    gj_trophy_add("98650");
+} 
 </string>
           </argument>
         </arguments>
