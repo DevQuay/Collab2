@@ -55,7 +55,7 @@
     <instance objName="obj_NewGame" x="84" y="48" name="inst_25C4A5C5" locked="0" code="" scaleX="0.876288652420044" scaleY="0.931034505367279" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="131" y="96" name="inst_91B934FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cursor" x="396" y="240" name="inst_04290DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_loggedonas" x="256" y="260" name="inst_402A8AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_loggedonas" x="256" y="264" name="inst_402A8AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_credits" x="44" y="116" name="inst_AAB6BDDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_selfdestruct" x="336" y="620" name="inst_B27ABC27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

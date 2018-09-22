@@ -113,7 +113,8 @@ keyhold = mouse_check_button_pressed(argument0)
 if keyhold{
     if !swappedalready{//called on the first hold action ONLY
         self.heldcolour = obj_basicblock.blockcolour
-        nextblocker(false)
+        obj_basicblock.blockcolour = obj_nextblock.blockcolour
+        nextblocker(1)
         swappedalready = 1
         swapped = 1
         }

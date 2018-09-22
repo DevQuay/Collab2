@@ -1,6 +1,6 @@
 #define nextblocker
 //vars
-nextblockcol = 0
+nextblockcol = -1
 
 nextblockalong = obj_basicblock//launcher
 
