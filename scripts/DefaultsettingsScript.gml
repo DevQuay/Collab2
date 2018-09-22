@@ -8,6 +8,7 @@ globalvar AllowMouseControl;
 globalvar paused;
 globalvar LeavingPause;
 globalvar BombScore;
+globalvar displayedScore;
 //colourlist
 //vital colours
 colours[0] = spr_explodingbox

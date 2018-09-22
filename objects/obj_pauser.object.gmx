@@ -8,6 +8,32 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>paused</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="27">
       <action>
         <libid>1</libid>
@@ -25,15 +51,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if paused=1{
-with obj_nextliner.alarm[0] = SavedAlarm[0]
-paused = 0
+            <string>if paused = 0{
+SavedAlarm = obj_nextliner.alarm[0];
+with obj_nextliner alarm[0] = -1;
+instance_create((room_width/2),40,obj_PauseText);
+paused = 1;
 }
-else if paused=0{
-SavedAlarm = obj_nextliner.alarm[0]
-instance_create((room_width/2),40,obj_PauseText)
-with obj_nextliner.alarm[0] = -1
-paused = 1
+if paused = 1{
+with obj_nextliner alarm[0] = obj_pauser.SavedAlarm;
+paused = 0;
 }
 </string>
           </argument>

@@ -52,8 +52,8 @@
           <argument>
             <kind>1</kind>
             <string>{do{
-displayScore +=10;
-}until displayScore == score;}
+displayedScore +=10;
+}until displayedScore == score;}
 </string>
           </argument>
         </arguments>

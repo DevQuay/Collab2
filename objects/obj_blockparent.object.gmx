@@ -171,6 +171,8 @@
             <kind>1</kind>
             <string>dis_u = shader_get_uniform(sh_aberration, 'u_Distance');
 dis = -0.15;
+collided = 0
+ignorecollision = 0
 image_speed = 0
 </string>
           </argument>
