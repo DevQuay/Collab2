@@ -129,6 +129,7 @@
     <sprite>sprites\logintomyass</sprite>
     <sprite>sprites\connected</sprite>
     <sprite>sprites\sprite45</sprite>
+    <sprite>sprites\sprite49</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -290,9 +291,9 @@
     <object>objects\cursor</object>
     <object>objects\obj_loggedonas</object>
     <object>objects\obj_credits</object>
+    <object>objects\object66</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Title</room>
     <room>rooms\MainMenu</room>
     <room>rooms\optionsroom</room>
     <room>rooms\Gametestfield</room>
