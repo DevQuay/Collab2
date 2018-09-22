@@ -125,9 +125,13 @@
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
     <sprite>sprites\spr_Tutorital</sprite>
+<<<<<<< HEAD
     <sprite>sprites\credits</sprite>
     <sprite>sprites\logintomyass</sprite>
     <sprite>sprites\connected</sprite>
+=======
+    <sprite>sprites\sprite45</sprite>
+>>>>>>> f9bfb3710f3ac84b2b0ed2e961561fb88efc7c29
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

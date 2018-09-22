@@ -57,7 +57,7 @@ with obj_nextliner alarm[0] = -1;
 instance_create((room_width/2),40,obj_PauseText);
 paused = 1;
 }
-if paused = 1{
+else if paused = 1{
 with obj_nextliner alarm[0] = obj_pauser.SavedAlarm;
 paused = 0;
 }

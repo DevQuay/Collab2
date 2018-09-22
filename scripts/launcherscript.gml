@@ -94,7 +94,7 @@ if keylaunch{
     launchedobj = instance_create(self.x,self.y, obj_launchedblock)
     launchedobj.blockcolour = self.blockcolour;
     launchedobj.ignorecollision = 1
-    launchedobj.alarm[1] = room_speed*8
+    launchedobj.alarm[1] = room_speed*3
     launchedobj.vspeed = -4;
     self.sprite_index = spr_blankedLauncher
 }
