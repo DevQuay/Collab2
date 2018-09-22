@@ -193,21 +193,61 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_basicblock</object>
-    <object>objects\obj_placedBlock</object>
-    <object>objects\obj_launchedblock</object>
-    <object>objects\debugobj</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_launcherret</object>
     <object>objects\obj_selfdestruct</object>
-    <object>objects\obj_NewGame</object>
-    <object>objects\obj_options</object>
     <object>objects\musictest</object>
-    <object>objects\object16</object>
-    <object>objects\Obj_enter</object>
     <object>objects\obj_transition1</object>
-    <object>objects\obj_transition2</object>
     <object>objects\obj_transition1_1</object>
+    <object>objects\obj_transition2</object>
+    <objects name="Game Room">
+      <object>objects\obj_launcherret</object>
+      <object>objects\obj_explodething</object>
+      <object>objects\obj_holdoutline</object>
+      <object>objects\obj_Tutorital</object>
+      <object>objects\object49</object>
+      <object>objects\block_pannel</object>
+    </objects>
+    <objects name="Menu">
+      <objects name="PauseMenu">
+        <object>objects\obj_ResumeButton</object>
+        <object>objects\PauseParent</object>
+        <object>objects\obj_RoomDarkener</object>
+        <object>objects\obj_PauseText</object>
+        <object>objects\obj_PauseMouse</object>
+      </objects>
+      <objects name="Options Menu">
+        <object>objects\LeftButton1</object>
+        <object>objects\RightButton1</object>
+        <object>objects\obj_MouseMode</object>
+        <object>objects\obj_backbutton</object>
+      </objects>
+      <objects name="Main">
+        <object>objects\object16</object>
+        <object>objects\logo</object>
+        <object>objects\obj_NewGame</object>
+        <object>objects\obj_options</object>
+        <object>objects\Obj_enter</object>
+      </objects>
+    </objects>
+    <objects name="Blocks">
+      <objects name="PrePlaceable Blocks">
+        <objects name="Vital colours">
+          <object>objects\obj_preplacedBlockRed</object>
+          <object>objects\obj_preplacedBlockPurple</object>
+          <object>objects\obj_preplacedBlockGreen</object>
+          <object>objects\obj_preplacedBlockBlue</object>
+          <object>objects\obj_preplacedOrange</object>
+        </objects>
+        <objects name="Misc Colours">
+          <object>objects\obj_preplacedYellow</object>
+          <object>objects\obj_preplacedGrey</object>
+        </objects>
+      </objects>
+      <object>objects\debugobj</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_launchedblock</object>
+      <object>objects\obj_basicblock</object>
+      <object>objects\obj_placedBlock</object>
+    </objects>
     <objects name="Preview Objects">
       <object>objects\obj_nextblock</object>
       <object>objects\obj_leftpreview</object>
@@ -217,19 +257,6 @@
       <object>objects\obj_rightpreview</object>
       <object>objects\obj_nextblock4</object>
       <object>objects\PreviewParent</object>
-    </objects>
-    <objects name="PrePlaceable Blocks">
-      <objects name="Vital colours">
-        <object>objects\obj_preplacedBlockRed</object>
-        <object>objects\obj_preplacedBlockPurple</object>
-        <object>objects\obj_preplacedBlockGreen</object>
-        <object>objects\obj_preplacedBlockBlue</object>
-        <object>objects\obj_preplacedOrange</object>
-      </objects>
-      <objects name="Misc Colours">
-        <object>objects\obj_preplacedYellow</object>
-        <object>objects\obj_preplacedGrey</object>
-      </objects>
     </objects>
     <objects name="Critical Game Objects">
       <object>objects\obj_blockparent</object>
@@ -248,31 +275,14 @@
       <object>objects\obj_LoseBarL</object>
       <object>objects\obj_LoseBarR</object>
     </objects>
-    <objects name="PauseMenu">
-      <object>objects\obj_ResumeButton</object>
-      <object>objects\PauseParent</object>
-      <object>objects\obj_RoomDarkener</object>
-      <object>objects\obj_PauseText</object>
-      <object>objects\obj_PauseMouse</object>
-    </objects>
-    <objects name="Options Menu">
-      <object>objects\LeftButton1</object>
-      <object>objects\RightButton1</object>
-      <object>objects\obj_MouseMode</object>
+    <objects name="Game Over Room Objects">
+      <object>objects\obj_GameOverScore</object>
     </objects>
     <object>objects\background1_10</object>
     <object>objects\object36</object>
     <object>objects\object37</object>
-    <object>objects\object38</object>
-    <object>objects\logo</object>
     <object>objects\obj_gameover</object>
-    <object>objects\obj_explodething</object>
     <object>objects\cursor</object>
-    <object>objects\obj_holdoutline</object>
-    <object>objects\block_pannel</object>
-    <object>objects\object49</object>
-    <object>objects\obj_backbutton</object>
-    <object>objects\obj_Tutorital</object>
     <object>objects\obj_loggedonas</object>
   </objects>
   <rooms name="rooms">
@@ -281,7 +291,6 @@
     <room>rooms\optionsroom</room>
     <room>rooms\Gametestfield</room>
     <room>rooms\GAME_OVER</room>
-    <room>rooms\Test_Tutorial_Room</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

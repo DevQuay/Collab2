@@ -23,10 +23,11 @@ colours[5] = spr_orangebox
 //Settings
 PreviewSetting = 4;
 KeyRepeat = 1;
-graceperiod = 30;
-interval = 30;
+graceperiod = 15;
+interval = 20;
 AllowMouseControl = 1;
 paused = 0;
 LeavingPause = 0;
+BombScore = 0;
 //randomize
 //randomize()

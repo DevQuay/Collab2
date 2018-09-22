@@ -19,14 +19,20 @@ blockdisplay[1].blockcolour = blockdisplay[2].blockcolour
 blockdisplay[2].blockcolour = blockdisplay[3].blockcolour   
 blockdisplay[3].blockcolour = nextblockcol
 }
-if argument0=0{
+else if argument0=0{
 nextblockalong.blockcolour = blockdisplay[0].blockcolour
 blockdisplay[0].blockcolour = blockdisplay[1].blockcolour
 blockdisplay[1].blockcolour = blockdisplay[2].blockcolour   
 blockdisplay[2].blockcolour = blockdisplay[3].blockcolour   
 blockdisplay[3].blockcolour = nextblockcol
 }
-if argument0 = 2{
+else if argument0 = 2{
+firstrandom()
+}
+
+#define selnext
+nextblockcol = irandom_range(1,(array_length_1d(colours)-1))//select next random colour
+#define firstrandom
 var step = 0;
 if step=0{
     blockdisplay[3].blockcolour = nextblockcol
@@ -63,7 +69,3 @@ if step=4{
     selnext()
     step++
     }
-}
-
-#define selnext
-nextblockcol = irandom_range(1,(array_length_1d(colours)-1))//select next random colour
