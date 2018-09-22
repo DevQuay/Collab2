@@ -3,7 +3,7 @@
   <caption></caption>
   <width>480</width>
   <height>320</height>
-  <vsnap>16</vsnap>
+  <vsnap>4</vsnap>
   <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
@@ -31,9 +31,9 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="1" stretch="0"/>
-    <background visible="-1" foreground="0" name="background2" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background7" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="1" stretch="0"/>
+    <background visible="-1" foreground="0" name="background2" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background7" x="-10" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,10 +52,12 @@
   </views>
   <instances>
     <instance objName="fonterizer" x="60" y="208" name="inst_6DD9610D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NewGame" x="236" y="80" name="inst_25C4A5C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_options" x="248" y="160" name="inst_91B934FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_NewGame" x="84" y="48" name="inst_25C4A5C5" locked="0" code="" scaleX="0.876288652420044" scaleY="0.931034505367279" colour="4294967295" rotation="0"/>
+    <instance objName="obj_options" x="131" y="96" name="inst_91B934FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cursor" x="396" y="240" name="inst_04290DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_loggedonas" x="76" y="32" name="inst_402A8AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_loggedonas" x="256" y="260" name="inst_402A8AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_credits" x="44" y="116" name="inst_AAB6BDDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_selfdestruct" x="336" y="620" name="inst_B27ABC27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

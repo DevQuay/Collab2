@@ -51,12 +51,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(scorefont)
-if fpressed{
-draw_text(self.x,self.y,"Logged on as "+string(gj_user_username()))
+            <string>if fpressed{
+draw_sprite(connected,0,x,y)
 }
 else{
-draw_text(self.x,self.y,"Press F to log In")
+draw_sprite(logintomyass,0,x,y)
 }
 </string>
           </argument>

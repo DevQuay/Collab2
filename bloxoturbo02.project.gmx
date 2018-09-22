@@ -125,6 +125,9 @@
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
     <sprite>sprites\spr_Tutorital</sprite>
+    <sprite>sprites\credits</sprite>
+    <sprite>sprites\logintomyass</sprite>
+    <sprite>sprites\connected</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -134,6 +137,7 @@
     <background>background\background4</background>
     <background>background\introbackground</background>
     <background>background\background6</background>
+    <background>background\background7</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -284,6 +288,7 @@
     <object>objects\obj_gameover</object>
     <object>objects\cursor</object>
     <object>objects\obj_loggedonas</object>
+    <object>objects\obj_credits</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title</room>
