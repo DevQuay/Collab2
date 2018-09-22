@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>paused = 0
 LeavingPause = 1
-with obj_nextliner alarm[0] = SavedAlarm[0]
+with obj_nextliner alarm[0] = obj_pauser.SavedAlarm
 obj_basicblock.alarm[1] = room_speed*0.3
 </string>
           </argument>

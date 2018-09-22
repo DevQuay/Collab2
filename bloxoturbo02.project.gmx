@@ -125,6 +125,7 @@
     <sprite>sprites\cursorimg</sprite>
     <sprite>sprites\spr_holdoutline</sprite>
     <sprite>sprites\spr_Tutorital</sprite>
+    <sprite>sprites\sprite45</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
