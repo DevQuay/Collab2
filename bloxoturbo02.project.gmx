@@ -145,6 +145,7 @@
     <script>scripts\nextblocker.gml</script>
     <script>scripts\Summon_Next_Line.gml</script>
     <script>scripts\DefaultsettingsScript.gml</script>
+    <script>scripts\TrophyThing.gml</script>
     <script>scripts\Tutorial_Room_Script.gml</script>
     <scripts name="Scriptstoimportinyourgame">
       <script>scripts\gj_init.gml</script>
@@ -239,6 +240,7 @@
       <object>objects\TutorialScripter</object>
       <object>objects\obj_pauser</object>
       <object>objects\fonterizer</object>
+      <object>objects\obj_GJctrlr</object>
     </objects>
     <objects name="LoseBar">
       <object>objects\obj_LoseBarP</object>
@@ -271,7 +273,6 @@
     <object>objects\object49</object>
     <object>objects\obj_backbutton</object>
     <object>objects\obj_Tutorital</object>
-    <object>objects\obj_GJctrlr</object>
     <object>objects\obj_loggedonas</object>
   </objects>
   <rooms name="rooms">

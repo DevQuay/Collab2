@@ -65,37 +65,41 @@ alarm[0]=30*room_speed; // To continue pinging
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>if score == 20{
-    if !gj_trophy_get_id("98647")
-    gj_trophy_add("98647");
-}
-else if score &gt; 1000{
-    if !gj_trophy_get_id("98648")
-    gj_trophy_add("98648");
-}
-else if score &gt; 2000{
-    if !gj_trophy_get_id("98651")
-    gj_trophy_add("98651");
-}
-else if AllowMouseControl = 0{
-if !gj_trophy_get_id("98650")
-    gj_trophy_add("98650");
-} 
-</string>
+            <kind>9</kind>
+            <script>TrophyThing</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
