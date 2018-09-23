@@ -27,12 +27,12 @@ colours[5] = spr_orangebox
 PreviewSetting = 4;
 KeyRepeat = 1;
 graceperiod = 15;
-interval = 15;
+interval = 20;
 AllowMouseControl = 1;
 paused = 0;
 LeavingPause = 0;
 BombScore = 0;
-Fullscreenedthing = 0;
+Fullscreenedthing = 1;
 MutedThing = 0;
 //randomize
-//randomize()
+randomize()

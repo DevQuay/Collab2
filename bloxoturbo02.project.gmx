@@ -157,6 +157,7 @@
     <script>scripts\Summon_Next_Line.gml</script>
     <script>scripts\DefaultsettingsScript.gml</script>
     <script>scripts\TrophyThing.gml</script>
+    <script>scripts\MusicBoy.gml</script>
     <script>scripts\Tutorial_Room_Script.gml</script>
     <scripts name="Scriptstoimportinyourgame">
       <script>scripts\gj_init.gml</script>
@@ -205,7 +206,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_selfdestruct</object>
-    <object>objects\musictest</object>
+    <object>objects\musicbox</object>
     <object>objects\obj_transition1</object>
     <object>objects\obj_transition1_1</object>
     <object>objects\obj_transition2</object>
