@@ -292,6 +292,7 @@
     <object>objects\obj_loggedonas</object>
     <object>objects\obj_credits</object>
     <object>objects\object66</object>
+    <object>objects\stopmusic</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
