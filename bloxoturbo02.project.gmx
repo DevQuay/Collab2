@@ -111,6 +111,7 @@
       <sprite>sprites\spr_LeftButton</sprite>
       <sprite>sprites\spr_RightButton</sprite>
       <sprite>sprites\spr_MouseMode</sprite>
+      <sprite>sprites\spr_BackButton</sprite>
     </sprites>
     <sprites name="MainMenu">
       <sprite>sprites\pressenter</sprite>
