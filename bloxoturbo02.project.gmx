@@ -130,7 +130,11 @@
     <sprite>sprites\logintomyass</sprite>
     <sprite>sprites\connected</sprite>
     <sprite>sprites\sprite45</sprite>
+    <sprite>sprites\spr_muter</sprite>
+    <sprite>sprites\spr_fullscreenerthing</sprite>
     <sprite>sprites\sprite49</sprite>
+    <sprite>sprites\sprite54</sprite>
+    <sprite>sprites\sprite53</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -215,17 +219,19 @@
     </objects>
     <objects name="Menu">
       <objects name="PauseMenu">
+        <object>objects\obj_PauseText</object>
         <object>objects\obj_ResumeButton</object>
         <object>objects\PauseParent</object>
         <object>objects\obj_RoomDarkener</object>
-        <object>objects\obj_PauseText</object>
+        <object>objects\obj_fullscreenerthingP</object>
         <object>objects\obj_PauseMouse</object>
+        <object>objects\obj_MuterP</object>
       </objects>
       <objects name="Options Menu">
-        <object>objects\LeftButton1</object>
-        <object>objects\RightButton1</object>
         <object>objects\obj_MouseMode</object>
         <object>objects\obj_backbutton</object>
+        <object>objects\obj_MuterO</object>
+        <object>objects\obj_fullscreenerthingO</object>
       </objects>
       <objects name="Main">
         <object>objects\object16</object>
@@ -233,6 +239,10 @@
         <object>objects\obj_NewGame</object>
         <object>objects\obj_options</object>
         <object>objects\Obj_enter</object>
+      </objects>
+      <objects name="other">
+        <object>objects\object71</object>
+        <object>objects\object72</object>
       </objects>
     </objects>
     <objects name="Blocks">
