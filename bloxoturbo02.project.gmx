@@ -66,6 +66,9 @@
     <sound>sound\match</sound>
     <sound>sound\move</sound>
     <sound>sound\clickynoise</sound>
+    <sound>sound\levelmusic2</sound>
+    <sound>sound\level4</sound>
+    <sound>sound\song5</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_BasicBlock</sprite>

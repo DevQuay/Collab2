@@ -1,6 +1,8 @@
 #define MusicBoy
 MusicList[0] = sound2;
-MusicList[1] = main_menu_music;
+MusicList[1] = levelmusic2;
+MusicList[2] = level4;
+MusicList[3] = song5;
 
 if !audio_is_playing(currentmusic){
     nxtsng()
