@@ -12,6 +12,7 @@ globalvar BombScore;
 globalvar displayedScore;
 globalvar Fullscreenedthing;
 globalvar MutedThing;
+globalvar currentmusic;
 //colourlist
 //vital colours
 colours[0] = spr_explodingbox
@@ -43,5 +44,6 @@ LeavingPause = 0;
 BombScore = 0;
 Fullscreenedthing = 0;
 MutedThing = 0;
+currentmusic = -1;
 //randomize
 randomize()
