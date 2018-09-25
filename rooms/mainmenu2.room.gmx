@@ -59,7 +59,6 @@
     <instance objName="obj_GJctrlr" x="36" y="256" name="inst_0347B5A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_credits" x="41" y="141" name="inst_246DC172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cursor" x="128" y="264" name="inst_798358D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="menumusicepic" x="125" y="18" name="inst_5F894C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

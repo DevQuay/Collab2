@@ -241,7 +241,7 @@
         <object>objects\obj_fullscreenerthingO</object>
       </objects>
       <objects name="Main">
-        <object>objects\object16</object>
+        <object>objects\menumusicepic</object>
         <object>objects\logo</object>
         <object>objects\obj_NewGame</object>
         <object>objects\obj_options</object>
@@ -313,6 +313,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
+    <room>rooms\mainmenu2</room>
     <room>rooms\optionsroom</room>
     <room>rooms\ro_credits</room>
     <room>rooms\Gametestfield</room>
