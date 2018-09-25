@@ -381,11 +381,11 @@ addedbombscore = 1
             <string>///Move one block down
 if self.y != 48{//should apply to every other row
     if self.blockabove = 1{
-        self.y += sprite_height
+        self.y += 16
     }
 }
 else{//should only apply to new rows
-    self.y += sprite_height
+    self.y += 16
 }
 </string>
           </argument>

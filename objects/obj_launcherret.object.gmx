@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>self.x = obj_basicblock.x
-self.y = obj_basicblock.y
+            <string>self.x = obj_basicblock.x-3
+self.y = obj_basicblock.y+2
 </string>
           </argument>
         </arguments>

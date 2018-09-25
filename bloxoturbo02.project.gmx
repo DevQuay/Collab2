@@ -91,9 +91,18 @@
       <sprite>sprites\spr_greenbox</sprite>
       <sprite>sprites\spr_bluebox</sprite>
       <sprite>sprites\spr_purplebox</sprite>
-      <sprite>sprites\spr_GreyBox</sprite>
-      <sprite>sprites\spr_circle</sprite>
+      <sprite>sprites\spr_greybox</sprite>
       <sprite>sprites\spr_explodingthing</sprite>
+      <sprites name="Flip">
+        <sprite>sprites\spr_explodingboxf</sprite>
+        <sprite>sprites\spr_redboxf</sprite>
+        <sprite>sprites\spr_orangeboxf</sprite>
+        <sprite>sprites\spr_yellowboxf</sprite>
+        <sprite>sprites\spr_greenboxf</sprite>
+        <sprite>sprites\spr_blueboxf</sprite>
+        <sprite>sprites\spr_purpleboxf</sprite>
+        <sprite>sprites\spr_greyboxf</sprite>
+      </sprites>
     </sprites>
     <sprites name="PreviewArrows">
       <sprite>sprites\spr_previewarrowleft</sprite>
