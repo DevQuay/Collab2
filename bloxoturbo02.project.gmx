@@ -69,6 +69,7 @@
     <sound>sound\levelmusic2</sound>
     <sound>sound\level4</sound>
     <sound>sound\song5</sound>
+    <sound>sound\buttonsound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_BasicBlock</sprite>
@@ -79,7 +80,6 @@
     <sprite>sprites\destroyanim</sprite>
     <sprite>sprites\Play</sprite>
     <sprite>sprites\Options</sprite>
-    <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_scoreThingy</sprite>
     <sprite>sprites\spr_transition1</sprite>
     <sprite>sprites\spr_transition1_1</sprite>
@@ -125,11 +125,7 @@
       <sprite>sprites\spr_MouseMode</sprite>
       <sprite>sprites\spr_BackButton</sprite>
     </sprites>
-    <sprites name="MainMenu">
-      <sprite>sprites\pressenter</sprite>
-    </sprites>
     <sprite>sprites\background1_1</sprite>
-    <sprite>sprites\sprite27</sprite>
     <sprite>sprites\background1_2</sprite>
     <sprite>sprites\sprite26</sprite>
     <sprite>sprites\spr_gameover</sprite>
@@ -141,21 +137,19 @@
     <sprite>sprites\credits</sprite>
     <sprite>sprites\logintomyass</sprite>
     <sprite>sprites\connected</sprite>
-    <sprite>sprites\sprite45</sprite>
     <sprite>sprites\spr_muter</sprite>
     <sprite>sprites\spr_fullscreenerthing</sprite>
     <sprite>sprites\sprite49</sprite>
     <sprite>sprites\sprite54</sprite>
     <sprite>sprites\sprite53</sprite>
+    <sprite>sprites\sprite63</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
-    <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
     <background>background\background4</background>
     <background>background\introbackground</background>
-    <background>background\background6</background>
     <background>background\background7</background>
   </backgrounds>
   <paths name="paths"/>
@@ -310,13 +304,11 @@
     </objects>
     <object>objects\background1_10</object>
     <object>objects\object36</object>
-    <object>objects\object37</object>
     <object>objects\obj_gameover</object>
-    <object>objects\cursor</object>
     <object>objects\obj_loggedonas</object>
     <object>objects\obj_credits</object>
     <object>objects\object66</object>
-    <object>objects\stopmusic</object>
+    <object>objects\cursor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>

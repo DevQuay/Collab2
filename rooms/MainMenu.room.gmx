@@ -54,11 +54,11 @@
     <instance objName="fonterizer" x="60" y="208" name="inst_6DD9610D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NewGame" x="80" y="48" name="inst_25C4A5C5" locked="0" code="" scaleX="0.876288652420044" scaleY="0.931034505367279" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="128" y="108" name="inst_91B934FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cursor" x="396" y="240" name="inst_04290DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_loggedonas" x="256" y="264" name="inst_402A8AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="logo" x="56" y="36" name="inst_3E1EAB12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="logo" x="63" y="39" name="inst_3E1EAB12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GJctrlr" x="36" y="256" name="inst_0347B5A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_credits" x="41" y="141" name="inst_246DC172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cursor" x="128" y="264" name="inst_798358D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
