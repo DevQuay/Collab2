@@ -151,6 +151,7 @@
     <background>background\background4</background>
     <background>background\introbackground</background>
     <background>background\background7</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -164,7 +165,6 @@
     <script>scripts\DefaultsettingsScript.gml</script>
     <script>scripts\TrophyThing.gml</script>
     <script>scripts\MusicBoy.gml</script>
-    <script>scripts\Tutorial_Room_Script.gml</script>
     <scripts name="Scriptstoimportinyourgame">
       <script>scripts\gj_init.gml</script>
       <script>scripts\gj_result_id.gml</script>
@@ -314,6 +314,7 @@
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\optionsroom</room>
+    <room>rooms\ro_credits</room>
     <room>rooms\Gametestfield</room>
     <room>rooms\GAME_OVER</room>
   </rooms>
