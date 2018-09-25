@@ -308,7 +308,7 @@
     <object>objects\obj_loggedonas</object>
     <object>objects\obj_credits</object>
     <object>objects\object66</object>
-    <object>objects\nomusic</object>
+    <object>objects\Nomusic</object>
     <object>objects\cursor</object>
   </objects>
   <rooms name="rooms">
