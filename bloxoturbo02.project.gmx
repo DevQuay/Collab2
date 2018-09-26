@@ -204,9 +204,6 @@
       <script>scripts\gj_user_autologin.gml</script>
     </scripts>
   </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\sh_aberration.shader</shader>
-  </shaders>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
